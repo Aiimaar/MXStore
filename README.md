@@ -96,13 +96,13 @@ To get a local copy up and running follow these simple steps.
   git clone https://github.com/Aiimaar/MXStore.git
 
 2. Install packages
-  npm install
-  npm install firebase
-  npm install react-leaflet leaflet
-  npm i --save @fortawesome/free-solid-svg-icons
-  npm i --save @fortawesome/free-regular-svg-icons
-  npm i --save @fortawesome/free-brands-svg-icons
-  npm i --save @fortawesome/react-fontawesome@latest
+* npm install
+* npm install firebase
+* npm install react-leaflet leaflet
+* npm i --save @fortawesome/free-solid-svg-icons
+* npm i --save @fortawesome/free-regular-svg-icons
+* npm i --save @fortawesome/free-brands-svg-icons
+* npm i --save @fortawesome/react-fontawesome@latest
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
