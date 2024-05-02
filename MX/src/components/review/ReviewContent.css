@@ -1,0 +1,128 @@
+.review-container,
+.review-background-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('/images/MX2.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.review-overlay {
+    background-color: rgba(255, 255, 255, 0.7); 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.5);
+    width: 60%;
+}
+
+.review-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.review-content h2 {
+    text-align: center;
+}
+
+.review-content input,
+.review-content textarea,
+.review-content button {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.review-content button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.review-content button:hover {
+    background-color: #0056b3;
+}
+
+.reviews-list {
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.review-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow-x: hidden;
+}
+
+.review-buttons button {
+    margin-left: 10px;
+    padding: 3px 1px;
+    font-size: 12px;
+}
+
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.popup-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.5);
+}
+
+.popup-content input {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.popup-content button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.popup-content button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para tamaños de pantalla específicos */
+
+@media only screen and (max-width: 600px) {
+    .review-overlay {
+        width: 90%; /* Reducir el ancho para pantallas pequeñas */
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+    .review-overlay {
+        width: 70%; /* Reducir el ancho para pantallas medianas */
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .review-overlay {
+        width: 50%; /* Reducir el ancho para pantallas grandes */
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .review-overlay {
+        width: 40%; /* Reducir el ancho para pantallas extra grandes */
+    }
+}
