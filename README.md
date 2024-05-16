@@ -69,7 +69,7 @@ MXStore is a React-based application for managing and displaying products for a 
 
 ## Feedly
 Feedly image.
-![RSS Reader][feedly.PNG]
+![RSS Reader](feedly.PNG)
 
 ## Page URL
 Link to MXStore page.
