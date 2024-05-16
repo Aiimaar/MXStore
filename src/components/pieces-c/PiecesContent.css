@@ -1,0 +1,198 @@
+.pieces-container {
+    width: 100%;
+}
+
+.pieces-content {
+    padding: 20px;
+}
+
+.phrase-pieces-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 78px;
+    margin-bottom: 100px;
+    margin-left: -20px;
+    background-size: cover;
+    padding: 100px;
+    color: white;
+    width: 100%;
+    height: 71vh;
+    z-index: 0;
+}
+
+.phrase-pieces-container:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('/images/MX4.jpg');
+    background-size: cover;
+    filter: brightness(0.5);
+    z-index: -1;
+}
+
+.phrase-pieces-container h2 {
+    margin: 0;
+    align-items: center;
+    color: white;
+}
+
+.brakes-title,
+.filter-title,
+.exhaust-title,
+.sus-title,
+.engine-title,
+.elec-title {
+    font-size: 45px;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 70px;
+}
+
+.brakes-container,
+.filter-container,
+.exhaust-container,
+.sus-container,
+.engine-container,
+.elec-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    margin-bottom: 190px;
+    margin-left: 250px;
+}
+
+.brakes-container .brake-item,
+.filter-container .filter-item,
+.exhaust-container .exhaust-item,
+.sus-container .sus-item,
+.engine-container .engine-item,
+.elec-container .elec-item {
+    position: relative;
+    width: calc(33.33% - 10px);
+    margin-bottom: 20px;
+}
+
+.brakes-container .brake-item img,
+.filter-container .filter-item img,
+.exhaust-container .exhaust-item img,
+.sus-container .sus-item img,
+.engine-container .engine-item img,
+.elec-container .elec-item img {
+    max-width: 100%;
+    max-height: 100%;
+    width: 50%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease-in-out;
+}
+
+.brakes-container .brake-item img:hover,
+.filter-container .filter-item img:hover,
+.exhaust-container .exhaust-item img:hover,
+.sus-container .sus-item img:hover,
+.engine-container .engine-item img:hover,
+.elec-container .elec-item img:hover {
+    transform: scale(1.1);
+}
+
+
+@media only screen and (max-width: 600px) {
+    .brakes-container,
+    .filter-container,
+    .exhaust-container,
+    .sus-container,
+    .engine-container,
+    .elec-container {
+        justify-content: space-between;
+        margin-left: 100px;
+    }
+
+    .brakes-title,
+    .filter-title,
+    .exhaust-title,
+    .sus-title,
+    .engine-title,
+    .elec-title {
+        font-size: 30px;
+        margin-left: 20px;
+        margin-bottom: 40px;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+    .brakes-container .brake-item,
+    .filter-container .filter-item,
+    .exhaust-container .exhaust-item,
+    .sus-container .sus-item,
+    .engine-container .engine-item,
+    .elec-container .elec-item {
+        width: calc(33.33% - 10px);
+        margin-bottom: 20px;
+    }
+
+    .brakes-title,
+    .filter-title,
+    .exhaust-title,
+    .sus-title,
+    .engine-title,
+    .elec-title {
+        font-size: 30px;
+        margin-left: 20px;
+        margin-bottom: 40px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    /* Ajustes para pantallas grandes */
+    .brakes-container .brake-item,
+    .filter-container .filter-item,
+    .exhaust-container .exhaust-item,
+    .sus-container .sus-item,
+    .engine-container .engine-item,
+    .elec-container .elec-item {
+        width: calc(25% - 10px);
+        margin-bottom: 20px;
+    }
+    
+    .brakes-title,
+    .filter-title,
+    .exhaust-title,
+    .sus-title,
+    .engine-title,
+    .elec-title {
+        font-size: 30px;
+        margin-left: 20px;
+        margin-bottom: 40px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .brakes-container .brake-item,
+    .filter-container .filter-item,
+    .exhaust-container .exhaust-item,
+    .sus-container .sus-item,
+    .engine-container .engine-item,
+    .elec-container .elec-item {
+        width: calc(20% - 10px);
+        margin-bottom: 20px;
+    }
+    
+    .brakes-title,
+    .filter-title,
+    .exhaust-title,
+    .sus-title,
+    .engine-title,
+    .elec-title {
+        font-size: 30px;
+        margin-left: 20px;
+        margin-bottom: 40px;
+    }
+}

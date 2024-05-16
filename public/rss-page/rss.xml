@@ -1,0 +1,81 @@
+<rss version="2.0">
+    <channel>
+        <title>Eventos de Motocross en Gran Canaria</title>
+        <link>https://mxstore-lnd.web.app</link>
+        <description>Eventos y competiciones de motocross en Gran Canaria</description>
+        <item>
+            <title>Gran Premio de Motocross en Maspalomas</title>
+            <link>https://mxstore-lnd.web.app/bikes</link>
+            <description>¡No te pierdas la emocionante competición de motocross en Maspalomas!</description>
+            <location>Maspalomas, Gran Canaria</location>
+            <date>Sábado 15 de Julio</date>
+        </item>
+        <item>
+            <title>Exhibición de Saltos en Las Palmas</title>
+            <link>https://mxstore-lnd.web.app/helmets</link>
+            <description>Los mejores pilotos de motocross del mundo realizarán increíbles
+                acrobacias.</description>
+            <location>Las Palmas de Gran Canaria</location>
+            <date>Viernes 28 de Agosto</date>
+        </item>
+        <item>
+            <title>Carrera de Enduro en Telde</title>
+            <link>https://mxstore-lnd.web.app/pieces</link>
+            <description>Disfruta de una emocionante carrera de enduro a través de los paisajes de
+                Telde.</description>
+            <location>Telde, Gran Canaria</location>
+            <date>Domingo 5 de Septiembre</date>
+        </item>
+        <item>
+            <title>Campeonato de Motocross Junior en Agaete</title>
+            <link>https://mxstore-lnd.web.app/contact</link>
+            <description>Jóvenes talentos del motocross compitiendo en un emocionante campeonato.</description>
+            <location>Agaete, Gran Canaria</location>
+            <date>Sábado 18 de Octubre</date>
+        </item>
+        <item>
+            <title>Rally Todo Terreno en Arucas</title>
+            <link>https://mxstore-lnd.web.app/review</link>
+            <description>¡Un desafío extremo en terrenos difíciles te espera en Arucas!</description>
+            <location>Arucas, Gran Canaria</location>
+            <date>Sábado 12 de Noviembre</date>
+        </item>
+        <item>
+            <title>Competición de Motocross en Vecindario</title>
+            <link>https://mxstore-lnd.web.app/know-more</link>
+            <description>¡Participa en la competición de motocross más emocionante de Vecindario!</description>
+            <location>Vecindario, Gran Canaria</location>
+            <date>Domingo 24 de Noviembre</date>
+        </item>
+        <item>
+            <title>Circuito de Velocidad en Santa Brígida</title>
+            <link>https://mxstore-lnd.web.app/equipment</link>
+            <description>Disfruta de un día de carreras de alta velocidad en el circuito de Santa
+                Brígida.</description>
+            <location>Santa Brígida, Gran Canaria</location>
+            <date>Sábado 6 de Diciembre</date>
+        </item>
+        <item>
+            <title>Ruta de Enduro por los Pinos de Gáldar</title>
+            <link>https://mxstore-lnd.web.app</link>
+            <description>Recorre los pinos de Gáldar en una emocionante ruta de enduro.</description>
+            <location>Gáldar, Gran Canaria</location>
+            <date>Domingo 19 de Diciembre</date>
+        </item>
+        <item>
+            <title>Festival de Motocross Freestyle en Agüimes</title>
+            <link>https://mxstore-lnd.web.app</link>
+            <description>Los mejores pilotos de freestyle del mundo se reúnen en Agüimes para un
+                festival lleno de trucos impresionantes.</description>
+            <location>Agüimes, Gran Canaria</location>
+            <date>Sábado 8 de Enero</date>
+        </item>
+        <item>
+            <title>Desafío de Supercross en Ingenio</title>
+            <link>https://mxstore-lnd.web.app</link>
+            <description>¡Prepárate para el desafío de supercross más extremo en Ingenio!</description>
+            <location>Ingenio, Gran Canaria</location>
+            <date>Domingo 23 de Enero</date>
+        </item>
+    </channel>
+</rss>

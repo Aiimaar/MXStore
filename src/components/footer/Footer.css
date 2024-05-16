@@ -1,0 +1,180 @@
+.footer-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start; /* Alinea los elementos verticalmente */
+  background-color: white;
+  color: black;
+  padding: 30px;
+  width: 100%;
+  margin: auto;
+  justify-content: space-between;
+  border: 1px solid black;
+}
+
+.footer-section {
+  flex-basis: 25%; /* Esto asegura que cada sección ocupe un cuarto del ancho */
+  margin-bottom: 0px;
+}
+
+.footer-section h3 {
+  margin-bottom: 10px; /* Espacio entre el título y los enlaces */
+}
+
+.footer-section nav a {
+  display: block;
+  margin-bottom: 5px; /* Espacio entre los enlaces */
+  color: black;
+  text-decoration: none;
+}
+
+.footer-connect {
+  flex-direction: row;
+}
+
+.footer-connect-face {
+  width: 2em;
+}
+
+.footer-connect-ins {
+  width: 2em;
+}
+
+.footer-connect-x {
+  width: 2em;
+}
+
+.footer-connect-rss {
+  width: 1em;
+  margin-left: 9px;
+}
+
+.footer-text-link {
+  cursor: pointer;
+  color: black;
+  text-decoration: none;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+}
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  z-index: 1000;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  max-width: 80%;
+  max-height: 80%;
+  overflow-y: auto;
+}
+
+.modal p {
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+
+.modal h2 {
+  margin-bottom: 20px;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+  .footer-wrapper {
+    padding: 15px;
+    width: 100%;
+  }
+
+  .footer-section {
+    flex-basis: 25%;
+    margin-bottom: 20px;
+
+  .footer-section h3 {
+    margin-bottom: 10px;
+  }
+
+  .footer-connect {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .footer-connect img {
+    width: 30px;
+  }
+
+  .footer-connect-rss {
+    width: 1em;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  .footer-wrapper {
+    padding: 15px;
+    width: 127%;
+  }
+
+  .footer-section {
+    flex-basis: 25%;
+  }
+
+  .footer-connect-rss {
+    width: 1em;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .footer-wrapper {
+    padding: 15px;
+    width:120%;
+  }
+
+  .footer-section {
+    flex-basis: 25%;
+  }
+
+  .footer-connect-rss {
+    width: 1em;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .footer-wrapper {
+    padding: 15px;
+    width:120%;
+  }
+}
+
+  .footer-section {
+    flex-basis: 25%;
+  }
+
+  .footer-connect-rss {
+    width: 1em;
+  }
+}
